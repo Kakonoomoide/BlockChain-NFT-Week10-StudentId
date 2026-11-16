@@ -1,5 +1,5 @@
 module.exports = {
-  defaultNetwork: "local",
+  defaultNetwork: "mainnet",
   networks: {
     local: {
       url: "http://127.0.0.1:8585",
@@ -10,7 +10,7 @@ module.exports = {
     // Keep it on https://: a plaintext http:// endpoint can be intercepted and
     // made to return spoofed chain state (balances, nonces, gas, receipts).
     mainnet: {
-      url: "",
+      url: "http://10.64.24.101:8585",
       chainId: 1912,
       symbol: "CMU",
     },

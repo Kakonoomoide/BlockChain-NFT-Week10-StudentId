@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "contract": "Coin",
+  "network": "mainnet",
+  "chainId": 1912,
+  "address": "0x3c67C9eE97cf1491109A6483ede3462C5753A84A",
+  "deployer": "0x3c9b08645c616ae3966252f276AA23825b3dCD85",
+  "txHash": "0xef5a968f7c98ef3b39eb386a623268d4602c5bc53966c60994312832f002e1d0",
+  "blockNumber": 436982,
+  "timestamp": "2026-11-16T08:46:58.000Z",
+  "codeHash": "0xcb4dc9354727765698c05f13a7241c3077d41412931c17382155fdb667c2186e"
+}

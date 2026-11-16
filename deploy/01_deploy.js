@@ -3,8 +3,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 // ===== Parameter koin (satuan KOIN, bukan satuan terkecil) =====
-const NAME = 'MahasiswaCoin';
-const SYMBOL = 'MHS';
+const NAME = 'MahasiswaCoin';     // ganti nama dengan coint yang di inginkan
+const SYMBOL = 'MHS';             // ganti dengan symnbol yang di inginkan
 const INITIAL_SUPPLY = 1000000;   // dicetak ke deployer saat deploy
 const CAP = 10000000;             // batas maksimal supply (tidak bisa dilewati mint)
 
@@ -36,7 +36,9 @@ async function main() {
   await coin.waitForDeployment();
 
   console.log('Coin deployed to:', await coin.getAddress());
-  console.log('Salin alamat di atas ke CONTRACT_ADDRESS di app.js dan scripts/seed.js');
+  console.log('Salin alamat di atas ke dalam aplikasi CointMU');
+  console.log('Gunakan wallet yang di gunakan untuk deploy dan pilih menu Tokens');
+  console.log('Tekan button Add Token dan input contract addressnya');
 }
 
 main().catch((error) => {
